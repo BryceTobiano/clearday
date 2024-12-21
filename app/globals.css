@@ -67,3 +67,35 @@
     @apply bg-background text-foreground;
   }
 }
+
+html, body {
+  overflow: hidden;
+}
+
+.fc {
+  height: 100vh;
+}
+
+
+.fc-theme-standard .fc-scrollgrid {
+  border: none;
+}
+
+.fc-theme-standard td, .fc-theme-standard th {
+  /* border: none; */
+}
+
+.fc-header-toolbar {
+  padding-top: 1em;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+.fc-timegrid-now-indicator-container {
+  position: relative;
+}
+
+.fc-timegrid-now-indicator-line {
+  height: 2px; /* Make it more prominent if needed */
+  background-color: red; /* Change color if needed */
+}

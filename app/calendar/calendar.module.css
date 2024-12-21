@@ -1,0 +1,13 @@
+#calendarContainer {
+    min-width: 500px;
+    max-width: 70vw;
+    flex: 1;
+}
+
+#container {
+   display: flex;
+}
+  
+#menuContainer {
+    
+}
